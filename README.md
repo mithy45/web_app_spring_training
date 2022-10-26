@@ -1,7 +1,7 @@
 # Template for Maven based exercises
 
-[![build workflow](https://github.com/mithy45/maven_starter_template/actions/workflows/build.yml/badge.svg)](https://github.com/mithy45/maven_starter_template/actions)
-[![codecov](https://codecov.io/gh/mithy45/maven_starter_template/branch/main/graph/badge.svg)](https://codecov.io/gh/mithy45/maven_starter_template)
+[![build workflow](https://github.com/mithy45/web_app_spring_training/actions/workflows/build.yml/badge.svg)](https://github.com/mithy45/web_app_spring_training/actions)
+[![codecov](https://codecov.io/gh/mithy45/web_app_spring_training/branch/main/graph/badge.svg)](https://codecov.io/gh/mithy45/web_app_spring_training)
 
 ## Build the project
 
