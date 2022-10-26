@@ -5,19 +5,19 @@ import org.springframework.web.bind.annotation.*;
 import java.util.ArrayList;
 
 @RestController
-@RequestMapping("/api")
+@RequestMapping("/api/todo")
 public class TodoListController {
     private final ArrayList<Todo> todoList = new ArrayList<Todo>();
 
     public TodoListController(){};
 
-    @GetMapping("/todo")
+    @GetMapping
     public ArrayList<Todo> getTodoList()
     {
         return todoList;
     }
 
-    @PostMapping("/todo")
+    @PostMapping
     public void addTodo(@RequestBody Todo todo)
     {
         todoList.add(todo);
